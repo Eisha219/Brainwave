@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/gilroy/Gilroy-Regular.woff2') format('woff2'),
+         url('assets/gilroy/Gilroy-Regular.woff') format('woff'),
+         url('assets/gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/gilroy/Gilroy-Bold.woff2') format('woff2'),
+         url('assets/gilroy/Gilroy-Bold.woff') format('woff'),
+         url('assets/gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body,html{
+    font-family: 'Gilroy', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+
+@media (min-width:1199px){
+  .flex-md {
+    display: flex !important;
+    flex-direction: row;
+    align-items: start;
+    justify-content: between;
+  }
+
+    .dropdown-menu {
+        transition: all 0.3s ease;
+        opacity: 0;
+        transform: translateY(10px);
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start;
+        width: 300px; 
+      }
+      .nav-item.dropdown:hover .dropdown-menu {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+      }
+      .dropdown-item {
+        transition: background-color 0.3s ease, color 0.3s ease;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .dropdown-item:hover {
+        background-color:var(--primary-color);
+        color: #fff;
+        letter-spacing: 1.3px;
+      }
+      .CTA-image img{
+        width: 100%!important;
+        height: 50%!important;
+     }
+}
+
+@media (min-width:992px){
+  .vedio-overlay{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+
+
+@media (max-width:1199px){
+ 
+  .right-question{
+    position: relative;
+  }
+  .right-question  .free-update{
+  margin-top: 150px!important;
+  position: absolute!important;
+}
+
+}
+@media (max-width:991px){
+  .coworking-banner .banner-content .main-heading{
+    line-height: 0px!important;
+    }
+
+  .right-question  .free-update{
+  
+    position: relative!important;
+  }
+  
+  .main-heading{
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 55px;
+    
+}
+.sub-heading{
+
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: -1.2px;
+    margin: 5px 0px;
+    line-height: 38px;
+    align-items: center;
+}
+.paragraph-grey{
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    margin: 5px 0px;
+    line-height: 25px;
+
+}
+    .dropdown-menu {
+        transition: all 0.3s ease;
+      }
+    .dropdown-item {
+        transition: background-color 0.3s ease, color 0.3s ease;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .dropdown-item:hover {
+        background-color:var(--primary-color);
+        color: #fff;
+        letter-spacing: 1.3px;
+      }
+      .agency-service .sub-heading{
+        padding: 0px 10px!important;
+    }
+
+    .counter-paragraph {
+      width: 100%;
+    } 
+
+.project-container{
+  padding: 50px 0;
+ 
+}
+
+.project-content {
+  padding: 5px;
+}
+
+.project-number {
+  background-color:#e2e7e3 ;
+  color: #4CAF50;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 20px;
+}
+.saas-price-cards .card .card-footer .main-btn{
+  padding: 6px 14px;
+  font-weight: 300;
+  font-size: 9px;
+}
+.saas-question {
+  padding: 80px  !important;
+}
+.saas-question .choose-item {
+  display: block!important;
+}
+.saas-question .choose-item .choose-icon{
+  margin-bottom: 20px;
+}
+
+@media (max-width:786px){
+  .banner-img{
+    width: 50%!important;
+    height: 50%;
+  }
+  .main-heading{
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 30px;
+}
+.sub-heading{
+
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 38px;
+    align-items: center;
+}
+.paragraph-grey{
+    font-size: 12px;
+    letter-spacing: -0.2px;
+    margin: 5px 0px;
+    line-height: 25px;
+
+}
+.story-paragraph{
+  position:relative;
+  top: 0%;
+  left: 0%;
+  align-items: center;
+}
+.rectangle-img{
+  position: absolute;
+  top: 0%!important;
+  left: 45%;
+  /* margin: auto; */
+}
+.responsive-container{
+  margin-top: 0px!important;
+}
+.choose-section-icon {
+  padding: 0px  !important;
+}
+
+
+
+}
+@media (max-width:567px){
+
+.main-btn{
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+
+}
+.get-started-img img{
+  width: 150px!important;
+  text-align: center!important;
+  
+}
+.saas-question .choose-item {
+  display: block!important;
+}
+.job-steps-image img{
+  width: 100%!important;
+}
+ .b2b-banner-img{
+  width: 100%;
+  height: 100%;
+ }
+}
+/*--- job site-------  */
+@media (min-width:992px){
+  .jobsite-banner .search-place-box .main-btn{
+    padding: 18.5px 30px;
+  
+  }
+}
+@media (max-width:991px){
+  .jobsite-banner .search-place-box {
+      padding: 18px!important;
+  }
+  .jobsite-banner .search-place-box .input-group {
+    padding: 8px;
+    width: 180px!important;
+  }
+  .jobsite-banner .search-place-box .main-btn{
+      margin-top: 0px;
+  }
+  .web-price  .card-footer{
+    padding: 10px!important;
+}
+.web-price .view-link{
+  background-color: #eee;
+  color: #473BF0;
+  padding: 10px!important;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: start!important;
+}
+.web-price .view-link .fa-arrow-right{
+  font-size: 10px!important;
+}
+
+video {
+ margin-top: 150px;
+  }
+  .b2b-img::before{
+  display: none!important;
+}
+/* .ecomm-track img{
+  width: 100%!important;
+} */
+.b2b-vedio{
+  position:relative!important;
+
+    /* overflow: hidden; */
+}
+ }
+ @media (max-width:786px){
+  .jobsite-banner .search-place-box {
+      padding: 18px!important;
+  }
+  .jobsite-banner .search-place-box .input-group {
+    padding: 8px;
+    width: 140px!important;
+  }
+  .jobsite-banner .search-place-box .main-btn{
+      margin-top: 0px;
+  }
+  .jobsite-banner .search-place-box .main-btn{
+    font-size: 12px;
+    padding: 10px 25px;
+    background-color: var(--primary-color);
+  
+  
+  }
+  .airbuds .right-airbud{
+    position: relative!important;
+    top: 0;
+ }
+
+ .b2b-banner-img{
+  width: 100%;
+  height: 100%;
+ }
+
+ }
+ @media(max-width:567px){
+  video {
+    width: 100%;
+    height: 100%;
+     }
+     
+.play-pause-btn {
+  top: 70%;
+}
+.bg-light-grey{
+  padding: 50px 0px!important;
+}
+ 
+ }
+ 
+
+
+ 
+
